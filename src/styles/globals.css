@@ -1,0 +1,36 @@
+@import 'variables.css';
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;    /* 1rem = 10px */
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
