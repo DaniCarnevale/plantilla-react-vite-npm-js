@@ -1,0 +1,14 @@
+# Dependencias
+node_modules/
+
+# Builds
+dist/
+
+# Archivos específicos de MacOS
+.DS_Store
+
+# Carpeta de Vite (dependencias pre-optimizadas)
+.vite/
+
+# Zip del Dist
+.dist.Zip
