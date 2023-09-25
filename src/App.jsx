@@ -1,9 +1,10 @@
-function App() {
-  const variableTitle = import.meta.env.VITE_APP_TITLE;
+import React from 'react';
+import Header from './components/Header';
 
+const App = () => {
   return (
     <>
-      <h1>{import.meta.env.VITE_APP_TITLE || 'Título por defecto'}</h1>
+      
     </>
   )
 }

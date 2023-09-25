@@ -1,0 +1,61 @@
+.card {
+    width: 90%;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin: 2rem auto;
+    background-color: #E7E7E7;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-image {
+    width: 100%;
+    height: auto; /* altura reducida para móviles */
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 10px; /* padding reducido para móviles */
+}
+
+.card-title {
+    margin: 0;
+    margin-bottom: 5px; /* margin reducido para móviles */
+    font-size: 2.4rem; /* tamaño de fuente reducido para móviles */
+    text-align: center;
+}
+
+.card-price {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 2rem; /* tamaño de fuente reducido para móviles */
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 300px; /* ancho definido para pantallas más grandes */
+    }
+
+    .card-image {
+        height: 200px; /* restauramos la altura para pantallas más grandes */
+    }
+
+    .card-content {
+        padding: 15px; /* padding restaurado para pantallas más grandes */
+    }
+
+    .card-title {
+        margin-bottom: 10px; /* margin restaurado para pantallas más grandes */
+        font-size: 1.5em; /* tamaño de fuente restaurado para pantallas más grandes */
+    }
+
+    .card-price {
+        font-size: 1.2em; /* tamaño de fuente restaurado para pantallas más grandes */
+    }
+}
